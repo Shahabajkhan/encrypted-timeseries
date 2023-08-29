@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+  position: absolute;
+  top: 0;
+}
+
+.header-left {
+  font-family: "AdobeCaslonW01", sans-serif;
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-right {
+  font-family: "AdobeCaslonW01", sans-serif;
+  font-size: 35px;
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.header-span {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2px;
+}
